@@ -9,11 +9,11 @@ header {
     background-color: #333;
     color: white;
     padding: 10px 0;
-    position: fixed; /* Закрепляем меню */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Убедимся, что меню находится поверх других элементов */
+    z-index: 1000;
 }
 
 nav ul {
@@ -44,7 +44,7 @@ main {
     margin: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 60px; /* Добавляем отступ сверху, чтобы контент не перекрывался меню */
+    margin-top: 60px;
 }
 
 footer {
